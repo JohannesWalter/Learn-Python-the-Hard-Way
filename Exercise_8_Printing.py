@@ -13,3 +13,5 @@ print(formatter.format(
 
 print("What we need is an enthusiastic but calm state of mind, and intense but orderly work.")
 print("Wer hat\'s gesagt?")
+
+print("Fußball ist das Theater des kleinen Mannes.")
