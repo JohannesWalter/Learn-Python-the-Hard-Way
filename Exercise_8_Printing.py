@@ -8,5 +8,8 @@ print(formatter.format(
     "Try your",
     "Own text here",
     "Maybe a poem",
-    "Or a woem"
+    "Or a woem"#
 ))
+
+print("What we need is an enthusiastic but calm state of mind, and intense but orderly work.")
+print("Wer hat\'s gesagt?")
