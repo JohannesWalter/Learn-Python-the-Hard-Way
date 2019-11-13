@@ -1,1 +1,3 @@
-Hello everyone! I'm your new friend, new-text.txt! Am I cool or what?!
+This is the new content
+It is very good content
+Some say, it is the best content!
