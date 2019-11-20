@@ -41,7 +41,8 @@ def stairs2():
     if "left" in choice:
         europe()
     elif "up" in choice:
-        up2()
+        pass
+        #up2()
     elif "back" in choice:
         lobby()
     else:
