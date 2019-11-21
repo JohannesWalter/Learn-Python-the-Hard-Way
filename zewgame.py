@@ -62,7 +62,7 @@ def room123():
         print("unknown command")
 
 def fight():
-    print("AYou slowly approach the light...")
+    print("You slowly approach the light...")
     sleep(2)
     monster.dragon()
     print("GAME OVER")

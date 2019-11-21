@@ -100,17 +100,29 @@ def spit_fire():
         hp_dragon -= randint(1,5)
         health_status()
     elif 'magic' in choice:
+
         print("You use the magic spell!")
+
         effect = randint(0,99)
+
         if effect < 20:
+
             print("A powerful white light shoots out of your wand! You block the fire and it heads back to the dragon, hurting him badly!")
+
             hp_dragon -= randint(20,25)
+
             health_status()
+
         else:
+            
             print("The spell and the fire hit on each other and with a loud 'bang!' both you and the dragon are being thrown backwards!")
+
             hp_dragon -= 10
+
             hp_player -= 5
+
             health_status()
+
     else:
         print("You can 'run' or use a 'magic' spell at this point.")
 
