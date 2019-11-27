@@ -42,14 +42,14 @@ import pandas as pd
 
 # https://www.geeksforgeeks.org/different-ways-to-create-pandas-dataframe/
 
-# Initialize data in lists:
-my_data = {'Name': ["Dominik", "Sebastian", "Johannes", "Irene", "Achim", "Nicolas"], 'Age': [36, 27, 29, 45, 56, 24], 'Titel': ["Head of JRG", "PhD-Candidate", "PhD-Candidate", "Professor", "President", "Hiwi"]}
+# # Initialize data in lists:
+# my_data = {'Name': ["Dominik", "Sebastian", "Johannes", "Irene", "Achim", "Nicolas"], 'Age': [36, 27, 29, 45, 56, 24], 'Titel': ["Head of JRG", "PhD-Candidate", "PhD-Candidate", "Professor", "President", "Hiwi"]}
 
-# create dataframe
-df = pd.DataFrame(my_data)
+# # create dataframe
+# df = pd.DataFrame(my_data)
 
-# prnt the output
-print(df, "\n\n")
+# # prnt the output
+# print(df, "\n\n")
 
 # print(df.iloc[0][0])
 # print("\n")
@@ -59,4 +59,10 @@ print(df, "\n\n")
 # print(df.iloc[[0]])
 # print(df.iloc[[0, 1]])
 # print(df.iloc[1,2])
-print(df.iloc[:,:])
+#print(df.iloc[:,:])
+
+
+print("Hello %s, how old are you? Ah, you are %s" % (12, 25)) 
+name = "jojojoojo"
+age = 1383811
+print(f"Hello, {name}, how old are ye? Ah ye art {age}")
