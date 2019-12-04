@@ -35,3 +35,14 @@ bulls_on_parade = Song(["They rally around the family",
 happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
+
+
+
+made_up_lyrics = Song(["I made up these lines",
+                       "because I can and it rhymes",
+                       "so it's okay and fine"])
+
+
+made_up_lyrics.sing_me_a_song()
+
+
