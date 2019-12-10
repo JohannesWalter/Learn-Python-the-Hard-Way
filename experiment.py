@@ -95,6 +95,9 @@ a_collecting_functions.message()
 class Monster(object):
     "Class for all kinds of monsters"
 
-    def description()
+    def 
+
+    def description(self):
+        print(f"I am the terrible {type} monster! My name is {name}! I deal {dp} damage points and I have {hp} health points, just so you know!")
 
 
