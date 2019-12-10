@@ -10,6 +10,7 @@ class Scene(object):
         print("This scene is not yet configured")
         print("Subclass it and implement enter().")
         exit(1)
+        
 class Engine(object):
 
     def __init__(self, scene_map):
@@ -43,7 +44,7 @@ class CentralCorridor(Scene):
 
     def enter(self):
         print(dedent("""
-        The Gothons of Planet Percal #25 have invaded your ship anddestroyed your entire crew. You are the last survivingmember and your last mission is to get the neutron destructbomb from the Weapons Armory, put it in the bridge, andblow the ship up after getting into an escape pod. You're running down the central corridor to the Weapons Armory when a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume flowing around his hate filled body. He's blocking the door to the Armory and about to pull a weapon to blast you.
+        The Gothons of Planet Percal 25 have invaded your ship anddestroyed your entire crew. You are the last survivingmember and your last mission is to get the neutron destructbomb from the Weapons Armory, put it in the bridge, andblow the ship up after getting into an escape pod. You're running down the central corridor to the Weapons Armory when a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume flowing around his hate filled body. He's blocking the door to the Armory and about to pull a weapon to blast you.
         """))
 
         action = input("> ")
