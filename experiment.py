@@ -111,3 +111,35 @@ class Monster(object):
 
 unicorn = Monster("unicorn", "Pimpldi", 10, 100)
 unicorn.description()
+
+
+####################################################################################################
+
+class Character(object):
+    """A class with basic info about characters"""
+
+    def __init__(self, name, job, dp, hp):
+
+        self.name = name
+        self.job = job
+        self.dp = dp
+        self.hp = hp
+    
+
+    def description(self):
+
+        name = self.name
+        job = self.job
+        dp = self.dp
+        hp = self.hp
+
+        print(f"Hi there! I am {name} and I am a {job}. I deal {dp} damage points and I have {hp} health points. Maybe I can help you?")
+
+class Ellie(Character):
+    """Ellie's class"""
+
+    def __init__(self):
+        
+
+ellie = Ellie()
+ellie.description()
